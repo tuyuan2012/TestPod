@@ -4,7 +4,7 @@ pod trunk register 845384699@qq.com 'LLRouter' --verbose
 
 git init （git初始化本地工程，还不是git工程）
 
-git tag 0.0.3
+git tag 0.0.2
 git push --tag
 
 git add .                   #将当前目录下所有文件和子目录的修改记录到Git索引中
