@@ -1,8 +1,6 @@
 
 pod trunk register 845384699@qq.com 'LLRouter' --verbose
 
-pod lib lint    #需要验证一下，以便提前发现问题。
-
 
 git init （git初始化本地工程，还不是git工程）
 
@@ -20,5 +18,7 @@ git remote
 git remote remove origin
 
 git remote add origin https://github.com/tuyuan2012/LLRouter.git
+
+pod lib lint    #需要验证一下，以便提前发现问题。
 
 pod trunk push LLRouter.podspec
